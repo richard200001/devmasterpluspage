@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mi Portafolio</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo-redes">
+      <h1><img src="img/logo_empresa.png" style=" height: 70px;
+        width: 165px;"/></h1>
+        <ul class="list">
+          <li class="shake"><a href="https://www.facebook.com/profile.php?id=100094666805096" target="_blank"><img src="img/facebook.png"  alt="" style="height: 50px; width: 50px;"></a></li>
+          <li class="pulse"><a href="https://instagram.com/devmasterplus?igshid=MzRlODBiNWFlZA==" target="_blank"><img src="img/instagram.png" alt="" style="height: 50px; width: 50px; "></a></li>
+          <li class="bounce"><a href="https://www.tiktok.com/@devmasterplus?_t=8fcJLW8lHb4&_r=1" target="_blank"><img src="img/tik-tok.png" alt="" style="height: 50px; width: 50px;"></a></li>
+          <li class="pulse"><a href="https://github.com/richard200001" target="_blank"><img src="img/github.png" alt="" style="height: 60px; width: 60px;"></a></li>
+          <li class="bounce"><a href="https://www.youtube.com/@devmaster1021" target="_blank"><img src="img/youtube.png" alt="" style="height: 50px; width: 50px;"></a></li>
+          <li class="shake"><a href="#contacto" target="_blank"><img src="img/computrabajo1.png" alt="" style="height: 50px; width: 50px;"></a></li>
+        </ul>
+    </div>
+   
+      
+    <nav>
+      <ul>
+        <li class="swing"><a href="#inicio">Inicio</a></li>
+        <li class="swing"><a href="#proyectos1">Proyectos</a></li>
+        <li class="swing"><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+   <div class="luciernagas">
+      <div class="firefly"></div>
+      <div class="firefly"></div>
+      <div class="firefly"></div>
+      <div class="firefly"></div>
+      <div class="firefly"></div>
+      <div class="firefly"></div>
+      <div class="firefly"></div>
+      <div class="firefly"></div>
+      <div class="firefly"></div>
+      <div class="firefly"></div>
+      <div class="firefly"></div>
+      <div class="firefly"></div>
+      <div class="firefly"></div>
+      <div class="firefly"></div>
+      <div class="firefly"></div>
+   </div>
+      
+  <div id="carousel" class="carousel">
+    <div class="carousel-inner">
+      
+      <div class="carousel-item active" data-slide="0" style="display: grid; place-items: center;">
+        <img src="img/logo.png" class="carousel-item img rotate-out-hor" style="width: 850px;
+        height: 350px;" alt="Slide 1">
+      </div>
+      <div class="carousel-item" data-slide="1" style="display: grid; place-items: center;">
+        <img src="img/logo_empresa.png" class=" carousel-item img rotate-out-hor" alt="Slide 2" style="width: 500px;
+        height: 250px;">   
+      </div>
+      <div class="carousel-item" data-slide="2" style="display: grid; place-items: center;">
+        <img src="img/foto1.png" class="carousel-item img rotate-out-hor" style="width: 500px;
+        height: 250px;" alt="Slide 3">
+      </div>
+    </div>
+    <button class="carousel-control-prev" onclick="prevSlide()">
+      &lsaquo;
+    </button>
+    
+   <div class="boton-p-r"><a href="#" onclick="togglePause(); return false;" class="btn-flip" data-back="PAUSA" data-front="CONTINÚA"></a></div>
+    
+ 
+    <button class="carousel-control-next" onclick="nextSlide()">
+      &rsaquo;
+    </button>
+    
+
+  </div>
+  
+
+  <section id="proyectos1">
+    <div class="container1">
+      <h2 class="animate1">Mis Proyectos</h2>
+      <div class="planet-wrapper">
+        <div class="planet" ><a href="https://github.com/richard200001/STACK-MERN-CRUD" target="_blank"><img id="circleOne" class="planet" src="img/image.jpg" alt="" ></a></div>
+        <div class="planet"  ><a href="https://github.com/richard200001/Page-documentation-mern" target="_blank"><img id="circleTwo" class="planet" src="img/image1.jpg" alt=""></a></div>
+        <div class="planet" ><a href="https://github.com/richard200001/carritoDeComprasJs" target="_blank"> <img class="planet" id="circleThree" src="img/image2.jpg" alt=""></a></div>
+        <div class="planet" ><a href="https://github.com/richard200001/game-javascript" target="_blank"><img class="planet" id="circleFour"src="img/image3.jpg" alt=""></a></div>
+        <!-- Agrega más elementos .planet según la cantidad deseada -->
+      </div>
+    </div>
+  </section>
+
+  <!-- <section id="proyectos">
+    <div class="container">
+      <h2 class="animate">Mis Proyectos</h2>
+      <div class="project animate">
+        <h3>Proyecto 1</h3>
+        <p>Descripción del proyecto 1</p>
+      </div>
+      <div class="project animate">
+        <h3>Proyecto 2</h3>
+        <p>Descripción del proyecto 2</p>
+      </div>
+    </div>
+  </section> -->
+ 
+  <div class="slide-bck-center"></div>
+  <section id="contacto">
+    <ul class="list">
+      <li class="shake"><a href="https://www.facebook.com/profile.php?id=100094666805096" target="_blank"><img src="img/facebook.png"  alt="" style="height: 50px; width: 50px;"></a></li>
+      <li class="pulse"><a href="https://instagram.com/devmasterplus?igshid=MzRlODBiNWFlZA==" target="_blank"><img src="img/instagram.png" alt="" style="height: 50px; width: 50px; "></a></li>
+      <li class="bounce"><a href="https://www.tiktok.com/@devmasterplus?_t=8fcJLW8lHb4&_r=1" target="_blank"><img src="img/tik-tok.png" alt="" style="height: 50px; width: 50px;"></a></li>
+      <li class="pulse"><a href="https://github.com/richard200001" target="_blank"><img src="img/github.png" alt="" style="height: 60px; width: 60px;"></a></li>
+      <li class="bounce"><a href="https://www.youtube.com/@devmaster1021" target="_blank"><img src="img/youtube.png" alt="" style="height: 50px; width: 50px;"></a></li>
+      <li class="shake"><a href="#contacto" target="_blank"><img src="img/computrabajo1.png" alt="" style="height: 50px; width: 50px;"></a></li>
+    </ul>
+  </section>
+
+  </button>
+  <div>
+    <button id="boton-flotante" class="boton-flotante">▶</button>
+  </div>
+
+  <!-- Elemento de audio con autoplay -->
+  <audio id="musica" autoplay>
+    <source src="img/Dream It - TrackTribe.mp3" type="audio/mpeg">
+  </audio> 
+
+ 
+  <script src="script.js"></script>
+</body>
+</html>

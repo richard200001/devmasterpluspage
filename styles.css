@@ -99,11 +99,10 @@ header {
 
 h1 {
   margin: 0;
+  position: absolute;
 }
 .logo-redes { 
-  display: flex; 
-  align-items: center; 
-  justify-content: space-between; 
+  left: 30%;
 }
 nav ul {
   list-style: none;
@@ -128,8 +127,7 @@ nav ul li a {
 
   display: flex; 
   align-items: center; 
-  justify-content: space-evenly; 
-
+  justify-content: flex-end; 
 }
 .luciernagas {
   position: absolute;

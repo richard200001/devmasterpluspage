@@ -1980,7 +1980,6 @@ animation-iteration-count: infinite;
 .planet {
   flex: 0 0 200px;
   height: 200px;
-  background-image: url('..img/logo\ empresa\ richi.PNG');
   border-radius: 50%;
   margin: 20px;
   position: relative;
@@ -2026,4 +2025,39 @@ animation-iteration-count: infinite;
   font-size:30px;
   z-index:100;
   border:black solid 2px;
+}
+@media (max-width: 768px) {
+  .carousel-inner {
+      display: flex; /* Cambia el contenedor a flex para centrar */
+      justify-content: center; /* Centra horizontalmente */
+      align-items: center; /* Centra verticalmente */
+      height: auto; /* Ajusta la altura automáticamente */
+  }
+
+  .carousel-item img {
+      width: 80%; /* Ajusta el ancho al 80% del contenedor */
+      height: auto; /* Mantiene la relación de aspecto */
+      max-width: 300px; /* Establece un ancho máximo si es necesario */
+  }
+  .boton-p-r {
+      padding-left: 30%; 
+      width: 100%; /* Asegura que ocupe el ancho completo */
+  }
+}
+@media (max-width: 768px) { 
+  .list {
+      visibility: hidden; /* Oculta la lista de íconos de redes sociales */
+  }
+}
+@media (max-width: 768px) {
+  .planet-wrapper {
+      flex-direction: row; /* Asegura que los circulos estén en filas */
+      justify-content: center; /* Centra los planetas en el contenedor */
+  }
+
+  .planet {
+      flex: 0 0 45%; /* Cambia el tamaño base a aproximadamente la mitad */
+      height: auto; /* Mantiene la altura proporcional */
+      margin: 10px; /* Reduce el margen para mantener el espaciado */
+  }
 }

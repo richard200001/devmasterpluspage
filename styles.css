@@ -128,8 +128,8 @@ nav ul li a {
   display: flex; 
   align-items: center; 
   justify-content: flex-end; 
-}
 
+}
 .list2 {
   list-style: none;
   padding-left: 0; 

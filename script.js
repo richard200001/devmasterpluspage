@@ -6,22 +6,16 @@ function animateElements() {
         element.classList.add('show');
       }
     });
-   // var elemento = document.querySelector ("h1");
 
-  
-//  elemento.classList.add ("animacion-slideIn");
- 
- // setTimeout (function () {
- //   elemento.classList.remove ("animacion-slideIn");
-//  }, 1000);
   }
-   document.addEventListener("DOMContentLoaded", function() {
+  document.addEventListener("DOMContentLoaded", function() {
     var elemento = document.querySelector ("h1");
 
   
     elemento.classList.add ("animacion-slideIn");
    
   });
+  
   // Verifica si un elemento está en el área visible del navegador
   function isElementInViewport(element) {
     const rect = element.getBoundingClientRect();
